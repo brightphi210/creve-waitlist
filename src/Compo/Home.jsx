@@ -71,7 +71,7 @@ const Home = () => {
         <section className='goal'>
             <div>
                 <h2>
-                    The Goal is to Empower Millions of Skilled workers in and Africa and globally
+                Empowering skilled individuals in Africa and beyond by creating a platform that connects customers with talented professionals.
                 </h2>
                 <Link to={'https://chat.whatsapp.com/KuOjvDVM1bfJLXBZYftDpK'}><button>Join Wait List</button></Link>
             </div>
