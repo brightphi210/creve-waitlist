@@ -21,11 +21,8 @@ const Home = () => {
         <section className='homeSection'>
             <div>
                 <h2>Discover Best <br /> <span>Talents Around</span></h2>
-                <h3>Explore and Hire best talents around the you and accross Africa.</h3>
-                <p>
-                    We help provide greate talents on various fields such as Photography, Cobbling <br />
-                    Web / Mobile Development, Digital Marketing, Fashion Designing, Furnitures etc.
-                </p>
+                <h3>Explore and Hire best talents around you and accross Africa.</h3>
+                <p> Empowering skilled individuals in Africa and beyond by creating a platform that connects customers with talented professionals.</p>
                 <Link to={'https://chat.whatsapp.com/KuOjvDVM1bfJLXBZYftDpK'}><button>Join Wait List</button></Link>
                 
             </div>
