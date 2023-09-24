@@ -5,6 +5,10 @@ import Nav from './Nav'
 
 import ceo from './ceo.png'
 import cto from './4.jpg'
+
+import img4 from './asb.png'
+
+
 const About = () => {
   return (
     <div>
@@ -51,7 +55,7 @@ const About = () => {
                 </div>
 
                 <div className='ourTeamEach'>
-                    <img src={ceo} alt="" />
+                    <img src={img4} alt="" />
                     <h3>Emeka Ewa</h3>
                     <p>Lead Developer</p>
                 </div>
