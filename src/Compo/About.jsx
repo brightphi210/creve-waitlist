@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Nav from './Nav'
 
 import ceo from './ceo.png'
+import cto from './4.jpg'
 const About = () => {
   return (
     <div>
@@ -44,7 +45,7 @@ const About = () => {
                 </div>
 
                 <div className='ourTeamEach'>
-                    <img src={ceo} alt="" />
+                    <img src={cto} alt="" />
                     <h3>Richard Kenneth</h3>
                     <p>COO/Co-Founder</p>
                 </div>
@@ -68,9 +69,9 @@ const About = () => {
 
             <section>
                 <div className='icons'> 
-                    <i class="uil uil-twitter"></i>
-                    <i class="uil uil-instagram"></i>
-                    <i class="uil uil-whatsapp"></i>
+                <Link to={'https://twitter.com/creveafrica'}><i class="uil uil-twitter"></i></Link>
+                <i class="uil uil-instagram"></i>
+                <Link to={'https://chat.whatsapp.com/KuOjvDVM1bfJLXBZYftDpK'}><i class="uil uil-whatsapp"></i></Link>
                 </div>
             </section>
 

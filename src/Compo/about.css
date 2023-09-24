@@ -50,7 +50,8 @@ body{
 }
 
 .ourTeam{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
     padding-top: 30px;
     color: white;
@@ -58,6 +59,8 @@ body{
 
 .ourTeam img{
     width: 100%;
+    /* height: 330px; */
+    border-radius: 30px;
 }
 
 .ourTeamEach{

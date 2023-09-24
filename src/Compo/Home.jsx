@@ -80,9 +80,10 @@ const Home = () => {
 
         <section>
             <div className='icons'> 
-                <i class="uil uil-twitter"></i>
+                <Link to={'https://twitter.com/creveafrica'}><i class="uil uil-twitter"></i></Link>
                 <i class="uil uil-instagram"></i>
-                <i class="uil uil-whatsapp"></i>
+                <Link to={'https://chat.whatsapp.com/KuOjvDVM1bfJLXBZYftDpK'}><i class="uil uil-whatsapp"></i></Link>
+                
             </div>
         </section>
     </div>
